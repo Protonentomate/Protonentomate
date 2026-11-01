@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Markdown Edit</title>
+<link rel="stylesheet" href="style.css">
+<link rel="icon" href="favicon.png">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+</head>
+<body>
+<div class="wrap">
+<header>
+  <img src="markdown-edit-icon.png" alt="">
+  <div>
+    <h1>Markdown Edit</h1>
+    <p class="lead">Markdown lesen und bearbeiten: Rohtext, geteilte Ansicht oder die fertige Seite,
+    in die du direkt schreibst. Für Mac, iPhone und iPad.</p>
+  </div>
+</header>
+<nav class="langs"><a href="#de">Deutsch</a><a href="#en">English</a></nav>
+
+<section id="de" lang="de">
+  <div class="card">
+    <p><strong>Ohne Konto, ohne Werbung, ohne Tracking, ohne Abo.</strong> Markdown Edit zeigt eine
+    Datei als Rohtext mit Farben, geteilt oder als fertige Seite. In der fertigen Seite klickst du in
+    einen Absatz und schreibst; zurück in die Datei geht nur der geänderte Block, der Rest bleibt
+    Zeichen für Zeichen gleich. Auf Deutsch und Englisch, ein Kauf für Mac, iPhone und iPad.</p>
+  </div>
+  <h2>Auf dem Mac</h2>
+  <ul>
+    <li>Drei Ansichten: Rohtext mit Syntaxfarben, geteilt mit mitlaufendem Bildlauf, fertige Seite;
+    wechseln mit ⌥⌘1, ⌥⌘2 und ⌥⌘3</li>
+    <li>Tabs wie im Browser: ⌘T, ⌘W, ⌘1 bis ⌘9; ein Tab lässt sich in ein eigenes Fenster ziehen</li>
+    <li>Seitenleiste mit allen geöffneten und zuletzt geöffneten Dokumenten oder mit dem Inhalt</li>
+    <li>Die Farb-Tags des Finders, sichtbar und in der App selbst zu setzen</li>
+    <li>Mermaid-Diagramme, direkt im Bild zu ändern, einfach oder erweitert</li>
+    <li>Bilder hineinziehen oder einfügen; sie kommen neben die Datei</li>
+    <li>PDF mit Vorschau, Word-Dokument, Drucken, formatiert oder als reiner Text kopieren</li>
+    <li>Quick Look: Die Leertaste im Finder zeigt die fertige Seite samt Diagrammen</li>
+    <li>Suchen mit ⌘F, Zoom, hell oder dunkel oder wie das System</li>
+  </ul>
+  <h2>Auf iPhone und iPad</h2>
+  <ul>
+    <li>Deine Dateien aus iCloud Drive, vom Gerät selbst und von anderen Anbietern</li>
+    <li>Dieselben drei Ansichten; geteilt auf dem iPad nebeneinander, auf dem iPhone Markdown oben und Vorschau unten</li>
+    <li>Derselbe Mermaid-Editor, Bilder aus Fotos oder Dateien</li>
+    <li>PDF, Word, Drucken und Teilen</li>
+  </ul>
+
+  <h2 id="hilfe">Hilfe</h2>
+  <p><strong>Wie öffne ich eine Datei?</strong> Am Mac mit ⌘O, per Doppelklick im Finder oder indem
+  du sie auf das Symbol ziehst; sie erscheint als neues Tab im vordersten Fenster. In den
+  Einstellungen kannst du auf «In neuem Fenster» umstellen. Auf iPhone und iPad wählst du die Datei
+  im Dateibrowser, der beim Start erscheint.</p>
+  <p><strong>Markdown-Dateien immer mit dieser App öffnen.</strong> Beim ersten Start fragt die App
+  einmal; sagst du Ja, öffnet ein Doppelklick im Finder von da an hier. Später geht es in den
+  Einstellungen unter «Standard-App». Einen Schalter zurück gibt es nicht: macOS kann die Rolle
+  vergeben, aber nicht zurücknehmen. Wähle dazu im Finder «Informationen» einer
+  <code>.md</code>-Datei und dort ein anderes Programm.</p>
+  <p><strong>Ein Bild neben der Datei wird nicht gezeigt.</strong> Die App darf nur die Datei lesen,
+  die du geöffnet hast. Für Bilder daneben braucht sie einmal deine Erlaubnis für den Ordner: Tippe
+  oder klicke auf den Knopf im leeren Bild und wähle den Ordner oder einen weiter oben. Die Erlaubnis
+  bleibt auf dem Gerät und lässt sich in den Einstellungen wieder entfernen. Bilder aus dem Internet
+  erscheinen ohne Erlaubnis.</p>
+  <p><strong>Wo landen eingefügte Bilder?</strong> In einem Ordner neben deiner Datei, der so heisst
+  wie sie (<code>Bericht.assets/</code>), verlinkt mit einem relativen Pfad. So lässt sich das
+  Dokument mitsamt seinen Bildern verschieben. Ein Bild, das schon im Ordner des Dokuments liegt,
+  wird nur verlinkt. Ein noch nie gesichertes Dokument sichert die App zuerst.</p>
+  <p><strong>Diagramme ändern, ohne Mermaid zu können.</strong> Klick ein Flussdiagramm an: Über dem
+  Bild erscheint eine Leiste mit «Knoten +», «Verbindung +» und «Quelltext». Ein Doppelklick auf
+  einen Knoten benennt ihn um, die Löschtaste entfernt ihn mit seinen Verbindungen. Der Knopf
+  «Erweitert» zeigt eine zweite Zeile: Form und Farbe des gewählten Knotens, Linie und Pfeil der
+  gewählten Verbindung, dazu Kurven (gebogen, gerade, rechtwinklig) und die Richtung des ganzen
+  Diagramms. Andere Diagrammarten bearbeitest du mit einem Doppelklick als Quelltext. Auf iPhone und
+  iPad tippst du einen Knoten, eine Verbindung oder das Diagramm an; unten erscheint ein Feld mit
+  grossen Knöpfen für dieselben Möglichkeiten.</p>
+  <p><strong>PDF und Word.</strong> «Ablage &gt; Als PDF exportieren» zeigt zuerst die Seiten: Du
+  wählst Papierformat, Ausrichtung, Ränder, die Schriftgrösse des normalen Texts in Punkt,
+  Seitenzahlen und «Jedes Kapitel auf neuer Seite». Die Wahl merkt sich die App, ⌘P druckt dieselben
+  Seiten. «Als Word exportieren» schreibt ein <code>.docx</code> mit Überschriften, Tabellen, Listen,
+  Links, Bildern und den Diagrammen als Bild.</p>
+  <p><strong>Quick Look im Finder.</strong> Markiere eine <code>.md</code>-Datei und drücke die
+  Leertaste: Die Vorschau zeigt dieselbe Seite wie die App, mit Diagrammen, Tabellen und farbigem
+  Code, hell oder dunkel nach System. Die Vorschau darf nur diese eine Datei lesen; statt eines
+  Bildes daneben steht darum ein Hinweis. Öffne das Dokument in der App, dann erscheint das Bild.</p>
+  <p><strong>Dieselbe Datei auf Mac und iPhone.</strong> Leg deine Dokumente in iCloud Drive ab, dann
+  gleicht macOS und iOS sie ab, und du öffnest überall dieselbe Datei, mit den Versionen des Systems.
+  Einen eigenen Abgleich hat die App nicht und braucht sie nicht.</p>
+  <p><strong>Wo sind die Einstellungen?</strong> Am Mac unter «Markdown Edit &gt; Einstellungen»
+  (⌘,), auf iPhone und iPad unter «Mehr» in der unteren Leiste. Dort stehen: öffnen in Tab oder
+  Fenster, die Ansicht beim Öffnen, Bearbeiten in der gerenderten Ansicht, Schrift und Schriftgrösse
+  des Rohtexts, Zoom, hell oder dunkel, die Standard-App und die Ordner mit Zugriff.</p>
+  <p><strong>Bleiben meine Dokumente privat?</strong> Ja. Die App hat kein Konto und keinen Server
+  und schickt nichts weg. Deine Dateien liegen dort, wo du sie hast. Aus dem Internet lädt die App
+  nur ein Bild, das in deinem Dokument verlinkt ist.</p>
+  <p><strong>Ein Fehler, oder fehlt dir etwas?</strong> Schreib an
+  <a href="mailto:apps@ceccato.ch">apps@ceccato.ch</a>, am besten mit dem Dokument, bei dem es
+  auffällt, und einem Bildschirmfoto.</p>
+  <p>Bald im App Store als «Markdown Edit» · <a href="datenschutz.html#markdown-edit">Datenschutz</a></p>
+</section>
+<hr>
+<section id="en" lang="en">
+  <h2>Markdown Edit</h2>
+  <div class="card">
+    <p><strong>No account, no ads, no tracking, no subscription.</strong> Markdown Edit shows a file
+    as coloured raw text, as a split view or as the finished page. In the finished page you click
+    into a paragraph and type; only the changed block goes back into the file, the rest stays the
+    same character for character. In English and German, one purchase for Mac, iPhone and iPad.</p>
+  </div>
+  <h3>On the Mac</h3>
+  <ul>
+    <li>Three views: raw text with syntax colours, a split view that scrolls together, the finished
+    page; switch with ⌥⌘1, ⌥⌘2 and ⌥⌘3</li>
+    <li>Tabs like a browser: ⌘T, ⌘W, ⌘1 to ⌘9, and a tab can be dragged out into a window of its own</li>
+    <li>A sidebar with every open and recently opened document, or with the headings of this one</li>
+    <li>The colour tags of the Finder, shown and set right in the app</li>
+    <li>Mermaid diagrams, changed in the picture itself, simple or extended</li>
+    <li>Drag images in or paste them; they are stored next to your file</li>
+    <li>PDF with a preview, a Word document, printing, copying formatted or as plain text</li>
+    <li>Quick Look: the space bar in the Finder shows the finished page, diagrams included</li>
+    <li>Find with ⌘F, zoom, light or dark or like the system</li>
+  </ul>
+  <h3>On iPhone and iPad</h3>
+  <ul>
+    <li>Your files from iCloud Drive, from the device itself and from other providers</li>
+    <li>The same three views; split side by side on the iPad, Markdown above and preview below on the iPhone</li>
+    <li>The same Mermaid editor, images from Photos or Files</li>
+    <li>PDF, Word, printing and sharing</li>
+  </ul>
+
+  <h3 id="help">Help</h3>
+  <p><strong>How do I open a file?</strong> On the Mac with ⌘O, with a double click in the Finder or
+  by dropping it on the icon; it opens as a new tab in the front window. Settings can switch that to
+  a new window. On iPhone and iPad you pick the file in the document browser that opens with the
+  app.</p>
+  <p><strong>Always open Markdown files with this app.</strong> On the first launch the app asks
+  once; if you say yes, a double click in the Finder opens the file here from then on. Later you
+  find the same button in Settings under “Default App”. There is no switch back: macOS can hand the
+  role over but not take it away. To change it, use “Get Info” on a <code>.md</code> file in the
+  Finder and pick another program there.</p>
+  <p><strong>An image next to the file does not show.</strong> The app may only read the file you
+  opened. For images beside it, it needs your permission for that folder once: tap or click the
+  button in the empty image and choose the folder, or one further up. The permission stays on your
+  device and can be removed again in Settings. Pictures from the internet appear without any
+  permission.</p>
+  <p><strong>Where do inserted images go?</strong> Into a folder next to your file, named after it
+  (<code>Report.assets/</code>), linked with a relative path, so the document can be moved together
+  with its images. An image that already lies in the document's folder is only linked. A document
+  that has never been saved is saved first.</p>
+  <p><strong>Changing a diagram without knowing Mermaid.</strong> Click a flowchart: a bar appears
+  above it with “Node +”, “Connection +” and “Source”. A double click on a node renames it, the
+  delete key removes it with its connections. The “Extended” button adds a second row: shape and
+  colour of the selected node, line and arrow of the selected connection, plus curves (curved,
+  straight, right angles) and the direction of the whole diagram. Other kinds of diagram are edited
+  as source text on a double click. On iPhone and iPad you tap a node, a connection or the diagram;
+  a panel with large buttons for the same choices comes up at the bottom.</p>
+  <p><strong>PDF and Word.</strong> File &gt; Export as PDF first shows the pages: you choose paper
+  size, orientation, margins, the font size of normal text in points, page numbers and “Each chapter
+  on a new page”. The app remembers your choice, and ⌘P prints the same pages. “Export as Word”
+  writes a <code>.docx</code> with headings, tables, lists, links, images and the diagrams as
+  pictures.</p>
+  <p><strong>Quick Look in the Finder.</strong> Select a <code>.md</code> file and press the space
+  bar: the preview shows the same page as the app, with diagrams, tables and coloured code, light or
+  dark like the system. The preview may read only that one file, so an image beside it is replaced
+  by a note. Open the document in the app and the image appears.</p>
+  <p><strong>The same file on Mac and iPhone.</strong> Keep your documents in iCloud Drive: macOS and
+  iOS sync them, so you open the same file everywhere, with the versions the system keeps. The app
+  has no sync of its own and needs none.</p>
+  <p><strong>Where are the settings?</strong> On the Mac under Markdown Edit &gt; Settings (⌘,), on
+  iPhone and iPad under “More” in the bottom bar. There you find: open in a tab or a window, the view
+  a document opens in, editing in the rendered view, font and font size of the raw text, zoom, light
+  or dark, the default app and the folders with access.</p>
+  <p><strong>Do my documents stay private?</strong> Yes. The app has no account and no server and
+  sends nothing anywhere. Your files stay where you keep them. From the internet the app loads only
+  a picture that your own document links to.</p>
+  <p><strong>Something wrong, or something missing?</strong> Write to
+  <a href="mailto:apps@ceccato.ch">apps@ceccato.ch</a>, ideally with the document it shows up in and
+  a screenshot.</p>
+  <p>Coming to the App Store as “Markdown Edit” · <a href="datenschutz.html#markdown-edit-en">Privacy</a></p>
+</section>
+<footer><a href="index.html">Apps von Brian Ceccato</a> · <a href="mailto:apps@ceccato.ch">apps@ceccato.ch</a></footer>
+</div>
+</body>
+</html>
